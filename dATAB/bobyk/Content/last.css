@@ -1,0 +1,135 @@
+
+.hex-wreper{
+
+    margin: 40px;
+    position:relative;
+    display: inline-block;
+    margin: 77px;
+
+}
+.hex-wreper1{
+
+    margin: 40px;
+    position:relative;
+    display: inline-block;
+    margin-left: 75px;
+
+
+}
+#hexagon1{
+
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+}
+#color1{
+
+    background-color: #39D;
+}
+#hexagon2{
+
+    height: 150px;
+    width: 150px;
+   
+}
+#color2{
+
+    background-color: #39D;
+}
+
+#hexagon3{
+
+    height: 150px;
+    width: 150px;
+ 
+}
+#color3{
+
+    background-color: #39D;
+}
+
+#hexagon4{
+
+    height: 150px;
+    width: 150px;
+ 
+}
+#color4{
+
+    background-color: #39D;
+}
+
+#hexagon5{
+
+    height: 150px;
+    width: 150px;
+    top: -125px;
+    left: 99px;
+ 
+}
+#color5{
+
+    background-color: #39D;
+}
+
+#hexagon6{
+
+    height: 150px;
+    width: 150px;
+    top: -125px;
+    left: 139px;
+ 
+}
+#color6{
+
+    background-color: #39D;
+}
+
+#hexagon7{
+
+    height: 150px;
+    width: 150px;
+    top: -125px;
+    left: 177px;
+ 
+}
+#color7{
+
+    background-color: #39D;
+}
+
+
+
+.hex {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #39D;
+  margin: 86.60px 0;
+  display: inline-block;
+
+}
+
+.hex:before,
+.hex:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  display: inline-block;
+}
+
+.hex:before {
+    position: absolute;
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+  display: inline-block;
+}
+
+.hex:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+  display: inline-block;
+}
